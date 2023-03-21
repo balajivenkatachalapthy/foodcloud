@@ -1,0 +1,80 @@
+.banner
+ {
+    background-image: url("../../../assets/img/homeimage.jpg");
+    height: 500px;
+    background-position: center top;
+    background-size: cover;
+}
+.content{
+    position:absolute;
+    top:100px;
+    right:70px;
+
+}
+.content h1{
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.content a{
+    text-decoration: none;
+    background-color: white;
+    color:green;
+    padding:20px;
+    border-radius: 5px;
+}
+.content a:hover{
+    color:white;
+    background-color: green;
+}
+.stepbox{
+    background-color: black;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.stepbox h1{
+    font-weight: bold;
+    color:green;
+
+}
+
+.stepbox p{
+    font-size: 20px;
+    color:white;
+    font-style: italic;
+    
+}
+.foodbox{
+    padding:10px 5px;
+}
+.foodbox img{
+    width:100%;
+    height:250px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h1{
+    font-size:10px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+.viewbtn{
+    background-color: green;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    padding:10px 10px;
+    width: auto;
+    background-position: left;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+
